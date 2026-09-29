@@ -1,0 +1,12 @@
+{"id":"P01","expected_answer":"Rama's mother is Queen Kausalya."}
+{"id":"P02","expected_answer":"Shatrughna's father is Dasharatha."}
+{"id":"P03","expected_answer":"Yes, Sumitra is the mother of both Lakshmana and Shatrughna."}
+{"id":"P04","expected_answer":"Their shared father is Dasharatha. Rama's mother is Kausalya, and Bharata's mother is Kaikeyi."}
+{"id":"P05","expected_answer":"Lakshmana and Shatrughna are Sumitra's sons and Rama's brothers."}
+{"id":"P06","expected_answer":"The brother is Bharata, whose mother is Kaikeyi."}
+{"id":"P07","expected_answer":"One: Rama."}
+{"id":"P08","expected_answer":"Three names remain: Rama, Bharata, and Shatrughna."}
+{"id":"P09","expected_answer":"No, Rama is Bharata's brother. Bharata's father is Dasharatha."}
+{"id":"P10","expected_answer":"Lakshmana is not Sumitra's only son among the four princes. Sumitra's sons are Lakshmana and Shatrughna."}
+{"id":"P11","expected_answer":"No, the note does not identify one mother. The mother could be Kausalya, Kaikeyi, or Sumitra."}
+{"id":"P12","expected_answer":"I don't know. The made-up scene does not specify the parcel's weight."}

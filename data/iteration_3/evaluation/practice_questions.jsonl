@@ -1,0 +1,12 @@
+{"id":"P01","category":"direct_facts","question":"Please identify the queen who is Rama's mother."}
+{"id":"P02","category":"direct_facts","question":"What name belongs in the father field of Shatrughna's family record?"}
+{"id":"P03","category":"relationships","question":"Is the mother of Lakshmana also the mother of Shatrughna? Give her name."}
+{"id":"P04","category":"relationships","question":"Compare Rama's and Bharata's parents: name their shared father and each prince's mother."}
+{"id":"P05","category":"combining_facts","question":"Which sons of Sumitra are also brothers of Rama? Name both princes."}
+{"id":"P06","category":"combining_facts","question":"Kausalya's son has three brothers. Name the brother whose mother is Kaikeyi."}
+{"id":"P07","category":"counting","question":"How many of Rama, Bharata, Lakshmana, and Shatrughna have Kausalya as their mother? Name them."}
+{"id":"P08","category":"counting","question":"If Lakshmana is removed from a list of Dasharatha's four sons, how many names remain, and what are they?"}
+{"id":"P09","category":"false_premise","question":"A family chart labels Rama as Bharata's father. Is that correct, and who is Bharata's father?"}
+{"id":"P10","category":"false_premise","question":"Why is Lakshmana the only son of Sumitra among the four princes?"}
+{"id":"P11","category":"insufficient_information","question":"An invented note identifies a prince only as a son of Dasharatha. Can you name his mother uniquely? Explain which mothers are possible."}
+{"id":"P12","category":"insufficient_information","question":"In a made-up scene, Rama receives a parcel, but its weight is not mentioned. How heavy is the parcel?"}

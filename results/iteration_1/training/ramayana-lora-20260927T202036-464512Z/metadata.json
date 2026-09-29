@@ -1,0 +1,41 @@
+{
+  "status": "complete",
+  "run_id": "ramayana-lora-20260927T202036-464512Z",
+  "model_path": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/models/base/SmolLM2-135M-Instruct",
+  "base_weights_sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+  "training_file": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/data/training/examples.jsonl",
+  "training_sha256": "8c651c8056387c418f663d3f2e0e0c2d65925b1df1e4c39278c184723364cbf3",
+  "training_examples": 12,
+  "epochs": 30,
+  "batch_size": 4,
+  "learning_rate": 0.0005,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0,
+  "max_grad_norm": 1.0,
+  "seed": 0,
+  "device": "cpu",
+  "dtype": "float32",
+  "cpu_threads": 4,
+  "lora": {
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.0,
+    "targets": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "trainable_parameters": 460800,
+  "frozen_parameters": 134515008,
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "5.17.0",
+    "peft": "0.21.0"
+  },
+  "test_questions_used": false,
+  "adapter_path": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/models/adapters/ramayana-lora-20260927T202036-464512Z",
+  "initial_training_loss": 1.6668481204820715,
+  "steps": 90,
+  "final_training_loss": 0.005328921186130332,
+  "completed_at_utc": "2026-09-27T20:21:21.782822+00:00"
+}

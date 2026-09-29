@@ -1,0 +1,8 @@
+{"epoch": 1, "step": 60, "training_loss": 1.063129017030668}
+{"epoch": 2, "step": 120, "training_loss": 0.4637849861008566}
+{"epoch": 3, "step": 180, "training_loss": 0.2943126379928124}
+{"epoch": 4, "step": 240, "training_loss": 0.19499749067772484}
+{"epoch": 5, "step": 300, "training_loss": 0.13579991348673526}
+{"epoch": 6, "step": 360, "training_loss": 0.09234468025489236}
+{"epoch": 7, "step": 420, "training_loss": 0.06790081710279362}
+{"epoch": 8, "step": 480, "training_loss": 0.055264636557549235}

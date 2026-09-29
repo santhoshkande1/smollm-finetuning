@@ -1,0 +1,61 @@
+{
+  "status": "complete",
+  "run_id": "iteration-2-ramayana-lora-20260927T223033-675346Z",
+  "iteration": 2,
+  "model_path": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/models/base/SmolLM2-135M-Instruct",
+  "base_weights_sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+  "training_file": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/data/iteration_2/training/examples.jsonl",
+  "training_sha256": "e5251baaaae0025831dc1c54bd58323ddc556daab05a7acf7f2d5c096f545dc1",
+  "training_examples": 42,
+  "epochs": 30,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "optimizer": "AdamW",
+  "weight_decay": 0.0,
+  "max_grad_norm": 1.0,
+  "seed": 0,
+  "device": "cpu",
+  "dtype": "float32",
+  "cpu_threads": 4,
+  "lora": {
+    "rank": 8,
+    "alpha": 16,
+    "dropout": 0.0,
+    "targets": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "trainable_parameters": 460800,
+  "frozen_parameters": 134515008,
+  "versions": {
+    "torch": "2.14.0",
+    "transformers": "5.17.0",
+    "peft": "0.21.0"
+  },
+  "test_questions_used": false,
+  "adapter_path": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/models/adapters/iteration_2/iteration-2-ramayana-lora-20260927T223033-675346Z",
+  "final_test_used": false,
+  "practice_used": true,
+  "practice_source_sha256": {
+    "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/data/iteration_2/evaluation/practice_questions.jsonl": "2ed69b2b440e45ba591572048445d4fde987ba8ddaa839a47d849ce9e6cb9e7a",
+    "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/data/iteration_2/evaluation/practice_answers.jsonl": "b86931bf89d03f03e38fba94c8ca2d903d9648aafffa9287da94c18c9eab1f17"
+  },
+  "checkpoint_every": 1,
+  "selection_rule": "lowest practice answer-token loss; ties keep earlier checkpoint",
+  "selection_is_accuracy_score": false,
+  "initial_training_loss": 1.7376140519192345,
+  "initial_practice_loss": 1.6855153213754743,
+  "last_checkpoint_epoch": 30,
+  "nominated_epoch": 21,
+  "nominated_practice_loss": 0.9845283722161223,
+  "last_epoch_training_loss": 0.25139744210312936,
+  "selected_epoch": 21,
+  "selected_checkpoint": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/models/adapters/iteration_2/iteration-2-ramayana-lora-20260927T223033-675346Z/checkpoints/epoch_021",
+  "selected_practice_loss": 0.9845283722161223,
+  "selected_improves_initial_practice_loss": true,
+  "human_review_pending": true,
+  "steps": 330,
+  "final_training_loss": 0.47195669081476,
+  "completed_at_utc": "2026-09-27T22:39:20.341152+00:00"
+}

@@ -1,0 +1,12 @@
+{"id":"F01","expected_answer":"Bharata's mother is Queen Kaikeyi."}
+{"id":"F02","expected_answer":"The four princes are Rama, Bharata, Lakshmana, and Shatrughna."}
+{"id":"F03","expected_answer":"Yes, Bharata and Lakshmana share their father, Dasharatha."}
+{"id":"F04","expected_answer":"Rama's mother is Kausalya, and Lakshmana's mother is Sumitra. They are different people."}
+{"id":"F05","expected_answer":"The two brothers are Lakshmana and Shatrughna."}
+{"id":"F06","expected_answer":"The prince is Lakshmana, and his father is Dasharatha."}
+{"id":"F07","expected_answer":"Shatrughna has three brothers: Rama, Bharata, and Lakshmana."}
+{"id":"F08","expected_answer":"Two are absent: Lakshmana and Shatrughna."}
+{"id":"F09","expected_answer":"No, Kaikeyi's son is Bharata. Rama's mother is Kausalya, and Lakshmana and Shatrughna's mother is Sumitra."}
+{"id":"F10","expected_answer":"No, Lakshmana is Shatrughna's brother, not his father. Shatrughna's father is Dasharatha."}
+{"id":"F11","expected_answer":"No, the clue fits both Lakshmana and Shatrughna. It does not distinguish between them."}
+{"id":"F12","expected_answer":"No, the sender could be Rama, Bharata, or Lakshmana. The invented story does not identify which brother sent the gift."}

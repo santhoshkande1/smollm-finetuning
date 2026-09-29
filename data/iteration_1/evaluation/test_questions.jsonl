@@ -1,0 +1,15 @@
+{"id":"H01","category":"rephrasing","question":"In Rama's family, what is his mother's name?"}
+{"id":"H02","category":"rephrasing","question":"Give the name of the king who fathered Shatrughna."}
+{"id":"H03","category":"rephrasing","question":"Which two sons does Queen Sumitra have?"}
+{"id":"H04","category":"relationships","question":"Do Lakshmana and Shatrughna share both their father and their mother? Name the parents."}
+{"id":"H05","category":"relationships","question":"Does Bharata share a biological mother with Shatrughna? Name each mother."}
+{"id":"H06","category":"relationships","question":"Among Rama, Bharata, Lakshmana, and Shatrughna, which pair has the same biological mother?"}
+{"id":"H07","category":"combining_facts","question":"Who is the father of Kaikeyi's son?"}
+{"id":"H08","category":"combining_facts","question":"Who is the mother of the brother who shares both parents with Shatrughna?"}
+{"id":"H09","category":"counting","question":"Of Dasharatha's four sons, how many were not born to Sumitra? Name them."}
+{"id":"H10","category":"counting","question":"How many distinct biological mothers do the four princes have? Name them."}
+{"id":"H11","category":"false_premise","question":"Why are Rama and Lakshmana both called sons of Kausalya?"}
+{"id":"H12","category":"false_premise","question":"Which of Kaikeyi's two sons is named Shatrughna?"}
+{"id":"H13","category":"false_premise","question":"Is Dasharatha Bharata's brother? Explain their relationship."}
+{"id":"H14","category":"insufficient_information","question":"A record identifies someone as one of Dasharatha's four sons but gives no other details. Which single prince can you identify from that alone?"}
+{"id":"H15","category":"insufficient_information","question":"A note says 'one of Sumitra's sons visited Rama.' Does this tell us whether the visitor was Lakshmana or Shatrughna?"}

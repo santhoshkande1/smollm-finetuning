@@ -1,0 +1,15 @@
+{"id":"H01","expected_answer":"Rama's mother is Kausalya."}
+{"id":"H02","expected_answer":"Shatrughna's father is King Dasharatha."}
+{"id":"H03","expected_answer":"Sumitra's sons are Lakshmana and Shatrughna."}
+{"id":"H04","expected_answer":"Yes. Their father is Dasharatha and their mother is Sumitra."}
+{"id":"H05","expected_answer":"No. Bharata's mother is Kaikeyi, and Shatrughna's mother is Sumitra."}
+{"id":"H06","expected_answer":"Lakshmana and Shatrughna share the same biological mother, Sumitra."}
+{"id":"H07","expected_answer":"Kaikeyi's son is Bharata, whose father is Dasharatha."}
+{"id":"H08","expected_answer":"That brother is Lakshmana, and his mother is Sumitra."}
+{"id":"H09","expected_answer":"Two: Rama and Bharata."}
+{"id":"H10","expected_answer":"Three: Kausalya, Kaikeyi, and Sumitra."}
+{"id":"H11","expected_answer":"They are not both sons of Kausalya. Rama's mother is Kausalya, while Lakshmana's mother is Sumitra."}
+{"id":"H12","expected_answer":"The premise is incorrect: Kaikeyi's son is Bharata. Shatrughna is Sumitra's son."}
+{"id":"H13","expected_answer":"No. Dasharatha is Bharata's father."}
+{"id":"H14","expected_answer":"No single prince can be identified. It could be Rama, Bharata, Lakshmana, or Shatrughna."}
+{"id":"H15","expected_answer":"No. The note does not identify which son visited; either Lakshmana or Shatrughna fits."}

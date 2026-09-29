@@ -1,0 +1,254 @@
+{
+  "comparison_id": "comparison-20260927T203646-554996Z",
+  "adapter_run": "ramayana-lora-20260927T202036-464512Z",
+  "grading_method": "Assistant-reviewed semantic judgments with scripted aggregation; not an automatic correctness classifier or an independent human review.",
+  "rubric": {
+    "correct": "Answers the requested question with the required facts and no false or unsupported additions. Equivalent wording/spellings accepted; an unrequested reasoning explanation is not mandatory.",
+    "partially_correct": "A meaningful part of the requested answer is correct, but required information is missing or other claims spoil it.",
+    "incorrect": "The core relationship, entity, count, or uncertainty judgment is wrong, or a different question is answered. Incidental matching names or a disconnected yes/no do not earn credit.",
+    "abstained": "Explicitly declines to answer without substituting a guess. A justified statement that a question is underdetermined counts as correct, not abstention.",
+    "unsupported_or_incorrect_claim": "Separate response-level reviewer flag for false or unsupported assertions; not a count of individual claims or a universal hallucination rate.",
+    "headline_metric": "Fully correct answers divided by all questions, with no fractional credit. Partial answers remain visible separately."
+  },
+  "overall": {
+    "base": {
+      "n": 30,
+      "correct": 0,
+      "partially_correct": 5,
+      "incorrect": 25,
+      "abstained": 0,
+      "unsupported_or_incorrect_claims": 28,
+      "hit_token_limit": 7,
+      "fully_correct_percent": 0
+    },
+    "lora": {
+      "n": 30,
+      "correct": 9,
+      "partially_correct": 4,
+      "incorrect": 17,
+      "abstained": 0,
+      "unsupported_or_incorrect_claims": 17,
+      "hit_token_limit": 0,
+      "fully_correct_percent": 30
+    }
+  },
+  "by_set": {
+    "baseline": {
+      "base": {
+        "n": 15,
+        "correct": 0,
+        "partially_correct": 2,
+        "incorrect": 13,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 15,
+        "hit_token_limit": 2,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 15,
+        "correct": 8,
+        "partially_correct": 2,
+        "incorrect": 5,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 5,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 53.333333333333336
+      }
+    },
+    "test": {
+      "base": {
+        "n": 15,
+        "correct": 0,
+        "partially_correct": 3,
+        "incorrect": 12,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 13,
+        "hit_token_limit": 5,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 15,
+        "correct": 1,
+        "partially_correct": 2,
+        "incorrect": 12,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 12,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 6.666666666666667
+      }
+    }
+  },
+  "by_category": {
+    "direct_facts": {
+      "base": {
+        "n": 9,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 9,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 9,
+        "hit_token_limit": 2,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 9,
+        "correct": 8,
+        "partially_correct": 0,
+        "incorrect": 1,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 1,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 88.88888888888889
+      }
+    },
+    "relationships": {
+      "base": {
+        "n": 7,
+        "correct": 0,
+        "partially_correct": 4,
+        "incorrect": 3,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 6,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 7,
+        "correct": 0,
+        "partially_correct": 3,
+        "incorrect": 4,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 4,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      }
+    },
+    "false_premise": {
+      "base": {
+        "n": 5,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 5,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 5,
+        "hit_token_limit": 1,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 5,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 5,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 5,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      }
+    },
+    "rephrasing": {
+      "base": {
+        "n": 3,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 3,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 3,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 3,
+        "correct": 0,
+        "partially_correct": 1,
+        "incorrect": 2,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 3,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      }
+    },
+    "combining_facts": {
+      "base": {
+        "n": 2,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 2,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 1,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 2,
+        "correct": 1,
+        "partially_correct": 0,
+        "incorrect": 1,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 1,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 50
+      }
+    },
+    "counting": {
+      "base": {
+        "n": 2,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 2,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 2,
+        "hit_token_limit": 2,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 2,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 2,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 2,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      }
+    },
+    "insufficient_information": {
+      "base": {
+        "n": 2,
+        "correct": 0,
+        "partially_correct": 1,
+        "incorrect": 1,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 2,
+        "hit_token_limit": 2,
+        "fully_correct_percent": 0
+      },
+      "lora": {
+        "n": 2,
+        "correct": 0,
+        "partially_correct": 0,
+        "incorrect": 2,
+        "abstained": 0,
+        "unsupported_or_incorrect_claims": 1,
+        "hit_token_limit": 0,
+        "fully_correct_percent": 0
+      }
+    }
+  },
+  "limitations": [
+    "Only 30 questions about one small family tree; underlying facts overlap with training.",
+    "No free-generation run on all exact training prompts was performed; low training loss is evidence of fitting the training answers, not a measured memorization accuracy.",
+    "H08 is accepted for the correct target mother, without establishing that the model followed the relationship chain.",
+    "B12 LoRA is partial because 'brothers' does not explicitly resolve shared fatherhood; B11 is incorrect because it names a mother instead of a brother.",
+    "Seven original-model answers were truncated at 96 tokens; grade only the recorded text. The adapter had no truncations.",
+    "False/unsupported-claim flags are manual judgments; shorter answers have fewer opportunities for extra claims.",
+    "If these test failures guide future training, use a new final test set for an unbiased follow-up evaluation."
+  ],
+  "source_sha256": {
+    "results/before_finetuning/comparison-20260927T203646-554996Z/responses.jsonl": "35114f937b35e0b7be3b510a086c5fc3da33ef5f57355a7045f8789a0a8b2b9e",
+    "results/after_finetuning/comparison-20260927T203646-554996Z/responses.jsonl": "ebe1d9aa31d87f9e6b1aae4e110c02c9e31637c7c7ba8d538894ede5568434c1",
+    "results/before_finetuning/comparison-20260927T203646-554996Z/metadata.json": "c915b1cb1740be96b50bdcafe29c526e14afc0e89476c1456b2da593874d706f",
+    "results/after_finetuning/comparison-20260927T203646-554996Z/metadata.json": "877bd53ca132c16ca5ffbf818ba7cb7b909013ee65b66f41ad947311e45b3ea7",
+    "data/evaluation/baseline_questions.md": "89dfa6cdcabc9012e5713412890e9f77813e7b998a1b9c5bad033ad36062e4a9",
+    "data/evaluation/test_answers.jsonl": "16043d656878b712941e689c3a39bc40012ee8e6c7d8bb1a6402a7aaa1796ce7"
+  }
+}

@@ -1,0 +1,12 @@
+{"id":"F01","category":"direct_facts","question":"Which queen should be listed as Bharata's mother in his family tree?"}
+{"id":"F02","category":"direct_facts","question":"Give the names of all four princes who are children of King Dasharatha."}
+{"id":"F03","category":"relationships","question":"Are Bharata and Lakshmana children of the same father? Identify that father."}
+{"id":"F04","category":"relationships","question":"Name Rama's mother and Lakshmana's mother, and say whether they are the same person."}
+{"id":"F05","category":"combining_facts","question":"Among the brothers of Kausalya's son, which two have Sumitra as their mother?"}
+{"id":"F06","category":"combining_facts","question":"A son of Sumitra is not Shatrughna. Give this prince's name and his father's name."}
+{"id":"F07","category":"counting","question":"Among Dasharatha's four sons, how many brothers does Shatrughna have? List those brothers."}
+{"id":"F08","category":"counting","question":"Of Dasharatha's four sons, only Rama and Bharata are present in an imagined room. How many of the four are absent, and who are they?"}
+{"id":"F09","category":"false_premise","question":"Is Kaikeyi the mother of all four princes? If not, name her son and the mothers of the other three."}
+{"id":"F10","category":"false_premise","question":"Someone labels Lakshmana as Shatrughna's father. Is that right, and who is Shatrughna's father?"}
+{"id":"F11","category":"insufficient_information","question":"A clue names a son of Dasharatha who is neither Rama nor Bharata. Does this identify one prince uniquely? Give the possible names."}
+{"id":"F12","category":"insufficient_information","question":"In an invented story, one of Shatrughna's three brothers sends him a gift, but no other clue identifies the sender. Can you name the sender uniquely? Give the possible names."}

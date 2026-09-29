@@ -1,0 +1,80 @@
+{
+  "reviewer": "assistant",
+  "method": "Manual semantic review; counts calculated from recorded fully-correct IDs, not string matching or keyword heuristics.",
+  "rubric": "Fully correct answers resolve all requested parts and contain no false or unsupported additions. All other answers are not fully correct; no partial-credit sum is reported.",
+  "final_test_used": false,
+  "checkpoints": [
+    {
+      "epoch": 5,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P05"
+      ],
+      "practice_loss": 0.9825978678183495,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T221919-706575Z/practice/epoch_005/responses.jsonl",
+      "responses_sha256": "549e3d0bc5455869d98bfc2697ea3f98b423317950da23680b04dc4fcd89027d"
+    },
+    {
+      "epoch": 10,
+      "fully_correct": 4,
+      "total": 12,
+      "correct_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P05"
+      ],
+      "practice_loss": 1.1438190734949234,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T221919-706575Z/practice/epoch_010/responses.jsonl",
+      "responses_sha256": "ec15f7622ce9806cc3ed4f764b510a6b90e0a9376837415277a74b4cad23a7f0"
+    },
+    {
+      "epoch": 15,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P01"
+      ],
+      "practice_loss": 1.3332342431268978,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T221919-706575Z/practice/epoch_015/responses.jsonl",
+      "responses_sha256": "e58e75917dea9dec02fd3efac88cfe6507bd909791ef8cb0b2d68ee8c0f65e0b"
+    },
+    {
+      "epoch": 20,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P01"
+      ],
+      "practice_loss": 1.4544965079925603,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T221919-706575Z/practice/epoch_020/responses.jsonl",
+      "responses_sha256": "6204857ec68cff96e4b549e89e46c388e32317207f95a6cfca4f44ceacaa8712"
+    },
+    {
+      "epoch": 25,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P01"
+      ],
+      "practice_loss": 1.521581291640777,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T221919-706575Z/practice/epoch_025/responses.jsonl",
+      "responses_sha256": "4a470080dc48042e0299109da56b92dbd5f62cbbb777982703b9533a68c48b3f"
+    },
+    {
+      "epoch": 30,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P01"
+      ],
+      "practice_loss": 1.5685325027023773,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T221919-706575Z/practice/epoch_030/responses.jsonl",
+      "responses_sha256": "e348d0ec6381b058f1c12b3c40c44bcbb4a534ca67bd5e7bbf42dd17a2630037"
+    }
+  ],
+  "recommended_epoch": 10,
+  "recommended_score": 4,
+  "tie_break": "Among checkpoints with highest fully-correct count, lowest practice loss, then earliest epoch."
+}

@@ -1,0 +1,345 @@
+{
+  "reviewer": "assistant",
+  "method": "Manual semantic review; counts calculated from recorded fully-correct IDs, not string matching or keyword heuristics.",
+  "rubric": "Fully correct answers resolve all requested parts and contain no false or unsupported additions. All other answers are not fully correct; no partial-credit sum is reported.",
+  "final_test_used": false,
+  "checkpoints": [
+    {
+      "epoch": 1,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.6020564444586955,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_001/responses.jsonl",
+      "responses_sha256": "58a2871cdd43dc8c5fb73cdffb17c99c71f81660d12a9243a3968a892fd7447a"
+    },
+    {
+      "epoch": 2,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.5114863062109558,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_002/responses.jsonl",
+      "responses_sha256": "1bd513aa37ecb08b7e68c03a8c8f2fd46d68074bcfeb3480dcd2215f1afa4f06"
+    },
+    {
+      "epoch": 3,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.4180770841279255,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_003/responses.jsonl",
+      "responses_sha256": "7bafeaaa4706a5403bbb1f81181ebbb049df699f089ad3cf860c7df9657905c0"
+    },
+    {
+      "epoch": 4,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.3432965739090554,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_004/responses.jsonl",
+      "responses_sha256": "51471a35d2929d0e532373f36dca07fcd597958a66e4bfa1a7e51553bae0595a"
+    },
+    {
+      "epoch": 5,
+      "fully_correct": 0,
+      "total": 12,
+      "correct_ids": [],
+      "practice_loss": 1.2836002459341875,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_005/responses.jsonl",
+      "responses_sha256": "41099925d76f96593ca059d21c4683c43cc9fcd91dbd8fc2ca5e21f5c7b51702"
+    },
+    {
+      "epoch": 6,
+      "fully_correct": 0,
+      "total": 12,
+      "correct_ids": [],
+      "practice_loss": 1.2358440672379194,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_006/responses.jsonl",
+      "responses_sha256": "634f4fb9a3624d9bbe72c168fa0e226be850a90822d24f76226b3acb28ee3a89"
+    },
+    {
+      "epoch": 7,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.1929193208145994,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_007/responses.jsonl",
+      "responses_sha256": "f907b5f4ed2ddc76bd5b0005489fa2a65056753b6e4fbe154924346044056523"
+    },
+    {
+      "epoch": 8,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.157922877774218,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_008/responses.jsonl",
+      "responses_sha256": "1b5bf492868978dd5e8583dfc50ee041fb334b5f17da18dff0dc9be19b9aa683"
+    },
+    {
+      "epoch": 9,
+      "fully_correct": 0,
+      "total": 12,
+      "correct_ids": [],
+      "practice_loss": 1.125635200304023,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_009/responses.jsonl",
+      "responses_sha256": "d4d3bfb9736a2062a9b3fda5e60491cdd134decd9156fd5759c00bb6635fd7e4"
+    },
+    {
+      "epoch": 10,
+      "fully_correct": 0,
+      "total": 12,
+      "correct_ids": [],
+      "practice_loss": 1.0943547083072909,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_010/responses.jsonl",
+      "responses_sha256": "ad265acda2f327a1123af9e0371c7cd6bdde576ced50e9369bf735480cb7f93f"
+    },
+    {
+      "epoch": 11,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.0690538223209298,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_011/responses.jsonl",
+      "responses_sha256": "185f5f654ae501c53314fbddfd1574a490a56b2954884f96f82e504248d4164d"
+    },
+    {
+      "epoch": 12,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.0490472357672171,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_012/responses.jsonl",
+      "responses_sha256": "f615d350d254ed0c7e5a1e7f1fea6fe0e050abbe4fbdd4cf2f7eea8cf297f812"
+    },
+    {
+      "epoch": 13,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.0314770640221789,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_013/responses.jsonl",
+      "responses_sha256": "ab6ccca3a1e1e3a247fb94dc90560c35daadc12eadb2c2ff9794a5da0af56ea8"
+    },
+    {
+      "epoch": 14,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.0156759755294211,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_014/responses.jsonl",
+      "responses_sha256": "7d9541ee8fefa28c1dd81600e2321f22ab3d0d10a564f8ef8873989ed1504397"
+    },
+    {
+      "epoch": 15,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.0052452573448802,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_015/responses.jsonl",
+      "responses_sha256": "c16be8d3022732236c83737d95b06d46294b25562c65ab1b6149e489306ce6f9"
+    },
+    {
+      "epoch": 16,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 0.9933763885702698,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_016/responses.jsonl",
+      "responses_sha256": "f5746630e063191b2ba8b1666271d131c068754cd05566a9261975cb881a54a6"
+    },
+    {
+      "epoch": 17,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 0.9890185742930793,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_017/responses.jsonl",
+      "responses_sha256": "aa67dd0adfce4cd8d6e7485284b0b1d1e54023ab5f1e5fba9f15606104b801f5"
+    },
+    {
+      "epoch": 18,
+      "fully_correct": 2,
+      "total": 12,
+      "correct_ids": [
+        "P05",
+        "P12"
+      ],
+      "practice_loss": 0.9875743977501669,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_018/responses.jsonl",
+      "responses_sha256": "34100ea791fe0591b4475bcf79aee68dccd4db4ce85a16056bdcbcb6cfbd2209"
+    },
+    {
+      "epoch": 19,
+      "fully_correct": 2,
+      "total": 12,
+      "correct_ids": [
+        "P05",
+        "P12"
+      ],
+      "practice_loss": 0.985454901605205,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_019/responses.jsonl",
+      "responses_sha256": "4b9f23e05493148da5ef478b263fae609a70b592d7301cb1b2af751f3b69ca6e"
+    },
+    {
+      "epoch": 20,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 0.988386665291029,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_020/responses.jsonl",
+      "responses_sha256": "0097d6f711bb63c4dd9d975d2e4e38117898be293e1b79d55e30a3bde16c953f"
+    },
+    {
+      "epoch": 21,
+      "fully_correct": 3,
+      "total": 12,
+      "correct_ids": [
+        "P03",
+        "P05",
+        "P12"
+      ],
+      "practice_loss": 0.9845283722161223,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_021/responses.jsonl",
+      "responses_sha256": "5be53169a6002657d3d36341c17b84fc4ff5e5d12306b1e3aca3a77f2385bbd6"
+    },
+    {
+      "epoch": 22,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.0002146278839765,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_022/responses.jsonl",
+      "responses_sha256": "5205d7f633713704c9f6316edf832dcad9f0fc622261c09493f339be2dee0113"
+    },
+    {
+      "epoch": 23,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.0079254669181268,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_023/responses.jsonl",
+      "responses_sha256": "81c26bb6b0aa9c2648b33426b358c71cb616fbaac7c84716dea41dafe4488583"
+    },
+    {
+      "epoch": 24,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.006082535301667,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_024/responses.jsonl",
+      "responses_sha256": "e84e1d5b107c57ae43f7a28f11fa2707d53c4e0f4bec061ead9f0e0211940ebe"
+    },
+    {
+      "epoch": 25,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P12"
+      ],
+      "practice_loss": 1.022374796253417,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_025/responses.jsonl",
+      "responses_sha256": "28940195052f64dff2240749d4dbbc4357a0a95827b122fc165641f233366112"
+    },
+    {
+      "epoch": 26,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P01"
+      ],
+      "practice_loss": 1.0472432676814656,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_026/responses.jsonl",
+      "responses_sha256": "0ae1fa7306d105b04f596d7e1b185bd32d0766a37b7c319bf032248f7658197d"
+    },
+    {
+      "epoch": 27,
+      "fully_correct": 3,
+      "total": 12,
+      "correct_ids": [
+        "P01",
+        "P05",
+        "P12"
+      ],
+      "practice_loss": 1.0495984508244265,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_027/responses.jsonl",
+      "responses_sha256": "95de42ab531f0c47880b52b16fc45ced571fdef9cca37deaeb0ceb2c249a6ef7"
+    },
+    {
+      "epoch": 28,
+      "fully_correct": 2,
+      "total": 12,
+      "correct_ids": [
+        "P01",
+        "P05"
+      ],
+      "practice_loss": 1.0631851049963497,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_028/responses.jsonl",
+      "responses_sha256": "b9159e47c749f8739a2681d7d014aeebe6ecb38c61092b975121f9e7f2ab7ca2"
+    },
+    {
+      "epoch": 29,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P01"
+      ],
+      "practice_loss": 1.0861978316000092,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_029/responses.jsonl",
+      "responses_sha256": "46b5f460e4ad08a4f42b636b0fe77bcc5c2072309af18a5c2c8c7748e476d7ef"
+    },
+    {
+      "epoch": 30,
+      "fully_correct": 1,
+      "total": 12,
+      "correct_ids": [
+        "P01"
+      ],
+      "practice_loss": 1.098650419149276,
+      "responses_file": "results/iteration_2/training/iteration-2-ramayana-lora-20260927T223033-675346Z/practice/epoch_030/responses.jsonl",
+      "responses_sha256": "4aaf3c91efe877aff34d3604a1c0aadf621ca967734176cb91dc8ec64a5c3837"
+    }
+  ],
+  "recommended_epoch": 21,
+  "recommended_score": 3,
+  "tie_break": "Among checkpoints with highest fully-correct count, lowest practice loss, then earliest epoch.",
+  "borderline_notes": [
+    "P12 is accepted when the answer only says the weight is unspecified or unknown; guessing a weight or asserting it is not heavy is rejected.",
+    "P05 at epochs 27 and 28 is accepted as identifying Lakshmana and Shatrughna in context without a false claim.",
+    "P09 is incomplete when it rejects the chart but names Ramas father instead of answering who Bharatas father is."
+  ]
+}

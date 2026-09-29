@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "adapter_run": "iteration-2-ramayana-lora-20260927T221919-706575Z",
+  "source_training_file": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/data/iteration_2/training/examples.jsonl",
+  "source_training_sha256": "e5251baaaae0025831dc1c54bd58323ddc556daab05a7acf7f2d5c096f545dc1",
+  "epochs": [
+    10,
+    30
+  ],
+  "examples_per_epoch": 42,
+  "final_test_used": false,
+  "training_performed": false,
+  "note": "Exact-match counts are wording-sensitive diagnostics, not semantic correctness scores.",
+  "checkpoints": {
+    "10": {
+      "path": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/models/adapters/iteration_2/iteration-2-ramayana-lora-20260927T221919-706575Z/checkpoints/epoch_010",
+      "sha256": "245f42305cbb8c58ef9246abb8785f6e74ce1f86301950c78a557619e94ad46a",
+      "exact_matches": 33,
+      "total": 42
+    },
+    "30": {
+      "path": "/Users/santhoshkande/ai-skills/fine-tuning/smollm-finetuning/models/adapters/iteration_2/iteration-2-ramayana-lora-20260927T221919-706575Z/checkpoints/epoch_030",
+      "sha256": "95d35496ed16c735727f5479731e6796f7b0be5bae3b862af06fba23969c41ca",
+      "exact_matches": 42,
+      "total": 42
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "experimental",
+  "example_count": 238,
+  "category_counts": {
+    "original": 42,
+    "parent_facts": 48,
+    "paired_parents": 18,
+    "siblings": 12,
+    "counting": 17,
+    "corrections": 24,
+    "reverse_facts": 12,
+    "connecting_facts": 19,
+    "clues": 16,
+    "relationships": 18,
+    "missing_details": 12
+  },
+  "source_facts": "Same four-prince family table as iterations 1 and 2. No new genealogy.",
+  "construction": "42 original examples plus deterministic factual/template variations.",
+  "generator": "scripts/build_training_variations.py",
+  "practice_set": "Unchanged iteration 2 development set; exact question duplicates excluded. Semantic overlap is intentional.",
+  "reserved_final_test": "data/iteration_2/evaluation/final_test_questions.jsonl (not read or used in construction)",
+  "limitations": "Template expansion is not equivalent to independent human examples. Practice-informed data development requires a reserved final evaluation."
+}
